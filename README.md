@@ -13,9 +13,10 @@ Este laboratório simula uma rede simples com:
 Simular uma rede interna de computadores.
 
 ## Como testar
-1. Abrir o arquivo `.pkt` no Cisco Packet Tracer.
-2. Clicar em qualquer PC e verificar que ele recebeu um IP automaticamente.
-3. Testar a comunicação entre os PCs (via ping).
+1. Abra o arquivo `.pkt` no Cisco Packet Tracer.
+2. Clique em qualquer PC e entre no cmd
+3. Envie um comando ipconfig no terminal, veja se ele tem ip atribuído
+4. Abra outro computador e teste a conexão da rede local, usando o comando ping no ip de outro computador.
 
 ## Observações
 Esse lab não inclui servidor DNS ou Web.
